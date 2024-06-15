@@ -1,0 +1,1 @@
+// JS for fading away the header //
