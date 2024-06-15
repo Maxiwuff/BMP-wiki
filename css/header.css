@@ -1,0 +1,37 @@
+/* Header style */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.search-bar {
+    width: 100%;
+    max-width: 400px;
+    margin-left: 20px;
+}
+
+.search-bar input {
+    width: 89%;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+}
