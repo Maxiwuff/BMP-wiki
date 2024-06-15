@@ -6,6 +6,7 @@ body {
     height: 100vh;
 }
 
+/* Header style */
 header {
     display: flex;
     justify-content: space-between;
@@ -55,6 +56,13 @@ section h2 {
     margin-top: 0;
 }
 
+/* License style */
+.license {
+        text-align: center;
+        margin: 20px 0;
+      }
+
+/* Footer style */
 footer {
     background-color: #333;
     color: white;
