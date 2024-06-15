@@ -1,1 +1,1 @@
-// Here you will have all your JS //
+// Various JS functions will go here //
