@@ -23,15 +23,45 @@ header {
     color: inherit;
 }
 
+/* Updated search bar styles */
 .search-bar {
     width: 100%;
     max-width: 400px;
     margin-left: 20px;
+    position: relative;
 }
 
 .search-bar input {
-    width: 89%;
+    width: 100%;
     padding: 8px;
     font-size: 16px;
     border: none;
+    border-radius: 4px;
+}
+
+/* New styles for search suggestions */
+#searchSuggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    max-height: 200px;
+    overflow-y: auto;
+    display: none;
+    z-index: 1001;
+}
+
+#searchSuggestions a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: #333;
+}
+
+#searchSuggestions a:hover {
+    background-color: #f0f0f0;
 }
