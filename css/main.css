@@ -25,3 +25,70 @@ section {
 section h2 {
     margin-top: 0;
 }
+
+/* CTA Section Styles */
+#cta-section {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#cta-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#cta-section p {
+  font-size: 1.1em;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  color: #666;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  background-color: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  #cta-section h2 {
+    font-size: 2em;
+  }
+
+  #cta-section p {
+    font-size: 1em;
+  }
+
+  .cta-button {
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cta-button {
+    width: 80%;
+  }
+}
