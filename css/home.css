@@ -14,14 +14,15 @@
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
-  background-color: #007BFF;
+  background-color: #555;
   color: white;
   border: none;
-  border-radius: 5px;
+  font-weight: bold; 
 }
 
 #BMPOTD button:hover {
-  background-color: #0056b3;
+  background-color: #333;
+  font-weight: bold; 
 }
 
 #home-section-1 {
@@ -32,4 +33,10 @@
 #home-section-2 {
   text-align: center;
   margin: 20px 0;
+}
+
+.BMP { 
+ float: left;
+ text-align: center;
+ width: 25%;
 }
