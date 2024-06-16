@@ -23,6 +23,7 @@ header {
     color: inherit;
 }
 
+/* Search bar styles */
 .search-bar {
     width: 100%;
     max-width: 400px;
@@ -38,6 +39,7 @@ header {
     border-radius: 4px;
 }
 
+/* Search suggestions */
 #searchSuggestions {
     position: absolute;
     top: 100%;
