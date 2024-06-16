@@ -1,0 +1,22 @@
+{
+  "BMPVehicles": [
+    {
+      "name": "Article 1",
+      "imagePath": "images/articles/Article1/placeholder-image.png",
+      "description": "Short description for Article 1",
+      "htmlPage": "articles/article1.html"
+    },
+    {
+      "name": "Article 2",
+      "imagePath": "images/articles/Article2/placeholder-image.png",
+      "description": "Short description for Article 2",
+      "htmlPage": "articles/article2.html"
+    },
+    {
+      "name": "Article 3",
+      "imagePath": "images/articles/Article3/placeholder-image.png",
+      "description": "Short description for Article 3",
+      "htmlPage": "articles/article3.html"
+    }
+  ]
+}
