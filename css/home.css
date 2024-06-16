@@ -23,3 +23,13 @@
 #BMPOTD button:hover {
   background-color: #0056b3;
 }
+
+#home-section-1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#home-section-2 {
+  text-align: center;
+  margin: 20px 0;
+}
