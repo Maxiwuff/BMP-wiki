@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-  const jsonFilePath = 'data/BMPOTD/Random-BMPs.json';
+  const jsonFilePath = '../data/BMPOTD/Random-BMPs.json';
   const timeApiUrl = 'https://worldtimeapi.org/api/timezone/Etc/UTC';
 
   function fetchBMPData() {
