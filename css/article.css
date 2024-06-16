@@ -2,14 +2,24 @@
 #article-section-1 {
   text-align: center;
   margin: 20px 0;
+  width: 77.3%;
 }
 
 #article-section-2 {
   text-align: center;
   margin: 20px 0;
+  width: 77.3%;
 }
 
 #article-section-3 {
   text-align: center;
   margin: 20px 0;
+  width: 77.3%;
+}
+#stats {
+  text-align: center;
+  margin: 20px 0;
+  width: 17%;
+  height: 1000px;
+  float: right;
 }
