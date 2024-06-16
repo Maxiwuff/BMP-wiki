@@ -1,1 +1,25 @@
 /* Home style */
+#BMPOTD {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#BMPOTD img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+#BMPOTD button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#BMPOTD button:hover {
+  background-color: #0056b3;
+}
