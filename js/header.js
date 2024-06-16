@@ -22,10 +22,10 @@ function handleScroll() {
     lastScrollTop = currentScrollTop;
 }
 
-// Add scroll event listener
+// Add scroll event listener (it listens for events)
 window.addEventListener('scroll', handleScroll, { passive: true });
 
-// Add some basic styles to the header for smooth transition
+// Add some basic styles to the header for smooth transition on the fly
 header.style.transition = 'transform 0.3s ease-in-out';
 header.style.position = 'fixed';
 header.style.top = '0';
