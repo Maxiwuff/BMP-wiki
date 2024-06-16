@@ -7,9 +7,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // List of pages to search (you can expand this list)
   const pages = [
-    { title: 'Article1', url: 'articles/article1.html' },
-    { title: 'Article2', url: 'articles/article2.html' },
-    { title: 'Article3', url: 'articles/article3.html' }
+    { title: 'Article1', url: '../BMP-wiki/articles/article1.html' },
+    { title: 'Article2', url: '../BMP-wiki/articles/article2.html' },
+    { title: 'Article3', url: '../BMP-wiki/articles/article3.html' }
   ];
 
   searchInput.addEventListener('input', () => {
