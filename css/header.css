@@ -23,7 +23,6 @@ header {
     color: inherit;
 }
 
-/* Updated search bar styles */
 .search-bar {
     width: 100%;
     max-width: 400px;
@@ -39,7 +38,6 @@ header {
     border-radius: 4px;
 }
 
-/* New styles for search suggestions */
 #searchSuggestions {
     position: absolute;
     top: 100%;
