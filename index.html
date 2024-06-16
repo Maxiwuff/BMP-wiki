@@ -35,6 +35,13 @@
       </div>
     </header>
     <main>
+      <section id="greeting-section">
+        <div class="greeting-content">
+          <h1>What is BMP-Wiki?</h1>
+          <p>BMP-Wiki is your comprehensive resource for all things related to the BMP (Boyevaya Mashina Pekhoty) series of infantry fighting vehicles. Explore the history, specifications, and variants of these iconic armored vehicles.</p>
+          <a href="all-bmps.html" class="greeting-button">View all BMPs</a>
+        </div>
+      </section>
       <section id="BMPOTD">
         <h2>BMP of the day is - <span id="bmp-name"></span></h2>
         <img id="bmp-image" src="" alt="BMP Image">
@@ -42,24 +49,32 @@
         <a id="bmp-link" href=""><button>Read more</button></a>
       </section>
       <section id="home-section-1">
-        <h1>Based on:</h1>
-          <a href="https://en.wikipedia.org/wiki/BMP-1"><div class="BMP">
-          <img id="bmp-image" src="test-image-bmp.png" alt="BMP Image"><br>
-          <h3>BMP-1</h3>
-          </div></a>
-          <a href="https://en.wikipedia.org/wiki/BMP-2"><div class="BMP">
-          <img id="bmp-image" src="test-image-bmp.png" alt="BMP Image"><br>
-          <h3>BMP-2</h3>
-          </div></a>
-          <a href="https://en.wikipedia.org/wiki/BMP-3"><div class="BMP">
-          <img id="bmp-image" src="test-image-bmp.png" alt="BMP Image"><br>
-          <h3>BMP-3</h3>
-          </div></a>
-          <a href="https://en.wikipedia.org/wiki/BMP-23"><div class="BMP">
-          <img id="bmp-image" src="test-image-bmp.png" alt="BMP Image"><br>
-          <h3>Other</h3>
-          </div></a>
-        <p>each with its own image leading to a list of variants based on this hull <br> former 3 will most likely have a description of their own too, with the more elaborate ones being in each separate article</p>
+        <h1>Our favorite BMPs:</h1>
+        <div class="bmp-container">
+          <a href="https://en.wikipedia.org/wiki/BMP-1" class="bmp-box">
+            <img src="test-image-bmp.png" alt="BMP-1 Image">
+            <h3>BMP-1</h3>
+            <p>First Soviet amphibious tracked infantry fighting vehicle.</p>
+          </a>
+          <a href="https://en.wikipedia.org/wiki/BMP-2" class="bmp-box">
+            <img src="test-image-bmp.png" alt="BMP-2 Image">
+            <h3>BMP-2</h3>
+            <p>Second-generation, amphibious infantry fighting vehicle.</p>
+          </a>
+          <a href="https://en.wikipedia.org/wiki/BMP-3" class="bmp-box">
+            <img src="test-image-bmp.png" alt="BMP-3 Image">
+            <h3>BMP-3</h3>
+            <p>Third-generation infantry fighting vehicle, successor to the BMP-1 and BMP-2.</p>
+          </a>
+        </div>
+      </section>
+      <section id="cta-section">
+        <h2>Join the Community!</h2>
+        <p>Connect with BMP enthusiasts, share your knowledge, and stay updated on the latest discussions.</p>
+        <div class="cta-buttons">
+          <a href="https://discord.com" class="cta-button">Join the BMP-Wiki Discord</a>
+          <a href="https://github.com/Maxiwuff/BMP-wiki" class="cta-button">Contribute to BMP-Wiki</a>
+        </div>
       </section>
     </main>
     <footer>
