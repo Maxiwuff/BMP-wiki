@@ -11,13 +11,13 @@
 }
 
 #BMPOTD button {
-  padding: 10px 20px;
+  padding: 12px 24px;
   font-size: 16px;
   cursor: pointer;
   background-color: #555;
   color: white;
   border: none;
-  font-weight: bold; 
+  font-weight: bold;
 }
 
 #BMPOTD button:hover {
@@ -38,4 +38,136 @@
 }
 .BMP:hover { 
 background-color: #f2f2f2;
+}
+
+#home-section-1 {
+  background-color: white;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#home-section-1 h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.bmp-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.bmp-box {
+  width: calc(25% - 20px);
+  min-width: 200px;
+  background-color: #f8f8f8;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bmp-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.bmp-box img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.bmp-box h3 {
+  margin: 10px 0;
+}
+
+.bmp-box p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Greeting Section styles */
+#greeting-section {
+  background-color: #f9f9f9;
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.greeting-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#greeting-section h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#greeting-section p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.greeting-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.greeting-button:hover {
+  background-color: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .bmp-box {
+    width: calc(50% - 20px);
+  }
+
+  #greeting-section {
+    padding: 40px 20px;
+  }
+
+  #greeting-section h1 {
+    font-size: 2.4em;
+  }
+
+  #greeting-section p {
+    font-size: 1.1em;
+  }
+
+  .greeting-button {
+    padding: 12px 24px;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .bmp-box {
+    width: 100%;
+  }
+
+  #greeting-section h1 {
+    font-size: 2em;
+  }
+
+  #greeting-section p {
+    font-size: 1em;
+  }
 }
